@@ -1,0 +1,15 @@
+[paths]
+source =
+    */tmnt
+
+[run]
+omit =
+    .*
+    */test*
+    *__init__*
+
+[report]
+exclude_lines =
+    def __repr__
+    raise NotImplementedError
+    raise AssertionError
